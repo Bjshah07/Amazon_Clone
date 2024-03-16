@@ -240,7 +240,7 @@
     background-color: black;
     color: white;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 /*-----------------------------------------------------Pannel Bar-------------------------------------------------------*/
@@ -276,12 +276,12 @@
 }
 
 .pannel-opt {
-    width: 80%;
+    width: 65%;
 }
 
-.pannel-opt2 {
-    font-size: 2.5rem;
-    font-weight: 500;
+.pannel-opt2 p{
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 /*------------------------------------------------------Main-Content-----------------------------------------------------*/
@@ -295,7 +295,7 @@
 }
 
 .msg {
-    font-size: 2.7rem;
+    font-size: 5rem;
     height: 4rem;
     background-color: white;
     margin-bottom: 2rem;
@@ -304,6 +304,8 @@
     justify-content: center;
     align-items: center;
 }
+.msg p{
+    font-size:1.5rem;
 
 a {
     font-size: 1.5rem;
@@ -384,7 +386,7 @@ h3 {
 
 /* ------------------------footer 3----------------- */
 .f3 {
-    height: 10rem;
+    height: 6rem;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -394,9 +396,10 @@ h3 {
 
 .logo1 {
     background-image: url(images.png);
+    background-size: contain;
     background-repeat: no-repeat;
-    height: 7rem;
-    width: 12rem;
+    height: 5.6rem;
+    width: 8rem;
 }
 
 /*--------------------------footer 4-------------------*/
